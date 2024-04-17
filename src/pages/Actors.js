@@ -16,7 +16,7 @@ function Actors() {
     return <Card 
       key={actor.id} 
       name={actor.name} 
-      movies={actor.movies} />;
+      movies={actor.movies} />
   });
 
   return (
